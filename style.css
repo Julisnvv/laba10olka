@@ -1,0 +1,150 @@
+body{
+ 	 	font-family: courier , monospace;
+        background-color: #D0BCA7;
+ }
+
+
+.container_nachalo{
+    background-color: #D0BCA7;
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.title {
+    color: #473728;
+    font-size: 70px;
+    text-align: center;
+    text-decoration: none;
+    font-family: courier , monospace;
+    position: relative;
+}
+
+
+.container{
+    color: white;
+    background-color: #A78E6C;
+font-size: 24px;
+text-align: center;
+    text-decoration: none;
+    position: relative;
+     padding: 35px;
+}
+
+.im1{
+    float: left;
+    padding: 0 20px 20px 0;
+    padding: 20px;
+}
+
+
+
+.container2{
+   color: white;
+    background-color: #A78E6C;
+font-size: 24px;
+text-align: center;
+    text-decoration: none;
+    position: relative;
+     padding: 35px;
+}
+
+.im2{
+    float: right;
+    padding: 0 20px 20px 0;
+    padding: 35px;
+}
+
+
+ 
+.container3{
+    color: white;
+    background-color: #A78E6C;
+font-size: 24px;
+text-align: center;
+    text-decoration: none;
+    position: relative;
+     padding: 35px;
+}
+
+
+.con{
+   font-family: courier , monospace;
+        background-color: #D0BCA7; 
+        font-size: 24px;
+text-align: center;
+    text-decoration: none;
+    position: relative;
+     padding: 35px;
+}
+
+.tit{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+*,*:before,*:after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box ;
+}
+
+.slider__item {
+text-align: center;
+ -moz-animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+
+}
+
+.slick-track {
+display: flex;
+}
+
+.slick-list {
+overflow: hidden;
+}
+
+.slider {
+position: relative;
+padding: 0px 60px;
+margin-top: 50px;
+}
+
+.slick-arrow {
+position: absolute;
+top: 50%;
+z-index: 10;
+font-size: 0;
+}
+
+.slick-dots {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: -40px;
+
+}
+
+.slick-dots li {
+list-style: none;
+margin: 0px 10px;
+}
+
+.slick-dots button {
+font-size: 0;
+width: 10px;
+height: 13px;
+background-color: #fff;
+border-radius: 50%;
+border: 0;
+}
+
+.slick-dots li.slick-active button {
+background-color: #afbcc4;
+border: 1px solid #fff;
+}
